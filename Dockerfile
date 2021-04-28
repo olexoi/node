@@ -1,6 +1,6 @@
 FROM node:14-alpine
 # Attach working directory
-WORKDIR /app
+WORKDIR /
 
 # The base node image sets a very verbose log level.
 ENV NPM_CONFIG_LOGLEVEL warn
